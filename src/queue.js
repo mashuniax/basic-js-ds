@@ -19,22 +19,8 @@ class Queue {
     this.head = null;
     // this.value = value;
   }
+  
   getUnderlyingList() {
-    let node = {
-      value : value,
-      next: null
-    }
-
-    if (!this.head) {
-      this.head = node
-    } else {
-      current = this.head
-      while(current.next) {
-        current = current.next
-      }
-
-      current.next = node;
-    }
 
   }
 
